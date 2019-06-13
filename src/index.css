@@ -1,8 +1,8 @@
 body {
   background-color: #bbbbbb;
   padding: 20px;
-  margin: 0;
-  background-image: url('./jesus.jpg');
+  margin: 60px;
+  background-image: url('./image4.jpg');
 }
 h1,
 h2,
@@ -36,9 +36,12 @@ ul.header {
 }
 
 .content {
-  background-color: green;
   padding: 20px;
   border-radius: 20px;
+  margin-top: 25px;
+  align-content: center;
+  margin: 0 auto; /* this will center the page */
+  width: 960px;
 }
 .content h2 {
   padding: 0;
