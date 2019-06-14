@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ActivTracker from './ActivTracker.png';
+import MovieAPI from './MovieAPI.png';
 
 class Projects extends Component {
   render() {
@@ -16,6 +17,23 @@ class Projects extends Component {
               <img
                 alt="ActivTracker app image"
                 src={ActivTracker}
+                className=""
+                width="270"
+                height="200"
+              />
+            </a>
+          </div>
+        </section>
+        <section className="border-top">
+          <div className="project_image">
+            <a
+              className="img-parent"
+              href="https://zeraiadhanom.github.io/Capstone_API"
+              target="_blank"
+            >
+              <img
+                alt="MovieAPI app image"
+                src={MovieAPI}
                 className=""
                 width="270"
                 height="200"
