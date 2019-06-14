@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import Calendar from './Calendar.pdf';
 
 class Resume extends Component {
   render() {
     return (
       <div>
-        <iframe src="https://view.officeapps.live.com/op/embed.aspx?src=http://localhost:300/src/2019_Calendar.pdf"></iframe>
+        <a title="Resume" href="./Calendar.pdf" target="_blank"></a>
       </div>
     );
   }

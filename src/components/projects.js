@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ActivTracker from './ActivTracker.png';
 
 class Projects extends Component {
   render() {
@@ -9,10 +10,16 @@ class Projects extends Component {
           <div className="project_image">
             <a
               className="img-parent"
-              href="https://symphesis.herokuapp.com/"
+              href=" https://mysterious-brook-32861.herokuapp.com"
               target="_blank"
             >
-              <img alt="Symphesis app image" src="./images/symphesis.png" />
+              <img
+                alt="ActivTracker app image"
+                src={ActivTracker}
+                className=""
+                width="270"
+                height="200"
+              />
             </a>
           </div>
         </section>
