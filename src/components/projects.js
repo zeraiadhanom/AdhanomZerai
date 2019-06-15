@@ -12,10 +12,11 @@ class Projects extends Component {
             <a
               className="img-parent"
               href=" https://mysterious-brook-32861.herokuapp.com"
-              target="_blank"
+              target="_blank "
+              rel="noopener noreferrer"
             >
               <img
-                alt="ActivTracker app image"
+                alt="ActivTracker"
                 src={ActivTracker}
                 className=""
                 width="270"
@@ -30,9 +31,10 @@ class Projects extends Component {
               className="img-parent"
               href="https://zeraiadhanom.github.io/Capstone_API"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <img
-                alt="MovieAPI app image"
+                alt="MovieAPI"
                 src={MovieAPI}
                 className=""
                 width="270"
