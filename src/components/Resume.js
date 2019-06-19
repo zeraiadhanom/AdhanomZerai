@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-import Calendar from './Calendar.pdf';
+import resume from './Resume.pdf';
 
 class Resume extends Component {
   render() {
     return (
       <div>
-        <a title="Resume" href="./Calendar.pdf" target="_blank"></a>
+        <p> My resume</p>
+        <img src={resume} className="image2" alt="application pdf" />
       </div>
     );
   }

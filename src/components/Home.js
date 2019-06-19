@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import image2 from './image2.jpg';
+import image2 from './prof.jpg';
 import './Home.css';
 
 class Home extends Component {
@@ -10,8 +10,8 @@ class Home extends Component {
           src={image2}
           className="image2"
           alt="image2"
-          width="150"
-          height="120"
+          width="250"
+          height="200"
         />
         <h2>Brief Introduction</h2>
         <p>
