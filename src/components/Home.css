@@ -15,3 +15,11 @@ h2 {
 p {
   color: black;
 }
+
+.main {
+  border: 1px solid white;
+  background-color: gray;
+  margin: auto;
+  font-size: 20px;
+  text-align: center;
+}
