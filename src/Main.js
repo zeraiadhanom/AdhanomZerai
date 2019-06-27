@@ -3,7 +3,7 @@ import { Route, NavLink, HashRouter } from 'react-router-dom';
 import Home from './components/Home';
 import Projects from './components/projects';
 import Resume from './components/Resume';
-import Contact from './components/contact';
+import Publications from './components/publication';
 
 class Main extends Component {
   render() {
@@ -21,14 +21,14 @@ class Main extends Component {
               <NavLink to="/Resume">Resume</NavLink>
             </li>
             <li>
-              <NavLink to="/Contact">Contact</NavLink>
+              <NavLink to="/Publications">Publications</NavLink>
             </li>
           </ul>
           <div className="content">
             <Route exact path="/" component={Home} />
             <Route path="/Projects" component={Projects} />
             <Route path="/Resume" component={Resume} />
-            <Route path="/Contact" component={Contact} />
+            <Route path="/Publications" component={Publications} />
           </div>
         </div>
       </HashRouter>
