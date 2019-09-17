@@ -11,6 +11,12 @@ class Resume extends Component {
           alt="image2"
           width="750"
           height="900"
+          style={{
+            alignSelf: 'center',
+            resizeMode: 'cover',
+            flex: 1,
+            position: 'absolute'
+          }}
         />
       </div>
     );

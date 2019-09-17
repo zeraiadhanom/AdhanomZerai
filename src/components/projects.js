@@ -7,95 +7,98 @@ import './project.css';
 class Projects extends Component {
   render() {
     return (
-      <div className="projects">
-        <h2>Projects</h2>
-        <section className="project-detail">
-          <div className="project_image">
-            <a
-              className="img-parent"
-              href=" https://mysterious-brook-32861.herokuapp.com"
-              target="_blank "
-              rel="noopener noreferrer"
-            >
-              <img
-                alt="ActivTracker"
-                src={ActivTracker}
-                className=""
-                width="50%"
-                height="300"
-              />
-            </a>
-            <div className="project-content">
-              <p>Technology used: HTML, CSS,React, Redux, node.js, mongodb </p>
-              <p>Live</p>
-              <p>Source</p>
-              <p>
-                This app helps user to login and log all their daily sport
-                activities The user can also update progress and track and view
-                past activity
-              </p>
+      <div className="container">
+        <div className="title">
+          <h1>Recent Projects</h1>
+          <p>The following are some of projects accomplished in the year</p>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div className="col-sm-6">
+              <div className="project_image">
+                <a
+                  className="img-parent"
+                  href=" https://mysterious-brook-32861.herokuapp.com"
+                  target="_blank "
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    alt="ActivTracker"
+                    src={ActivTracker}
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div className="project-content">
+                <p>
+                  This app helps user to login and record all their daily sport
+                  activities The user can also update progress and track and
+                  view past activity
+                </p>
+                <p>
+                  Technology used: HTML, CSS,React, Redux, node.js, mongodb{' '}
+                </p>
+                <p>Live</p>
+                <p>Source</p>
+              </div>
+            </div>
+
+            <div className="col-sm-6">
+              <div className="project_image">
+                <a
+                  className="img-parent"
+                  href=" https://mysterious-brook-32861.herokuapp.com"
+                  target="_blank "
+                  rel="noopener noreferrer"
+                >
+                  <img alt="ActivTracker" src={MovieAPI} class="img-fluid" />
+                </a>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div className="project-content">
+                <p>
+                  This app is a video player. User can login or create an
+                  account and search any video of their interest and they can
+                  play back. The app uses youtube API;
+                </p>
+                <p>
+                  Technology used: HTML, CSS,React, Redux, node.js, mongodb{' '}
+                </p>
+                <p>Live</p>
+                <p>Source</p>
+              </div>
+            </div>
+            <div className="col-sm-6">
+              <div className="project_image">
+                <a
+                  className="img-parent"
+                  href=" https://mysterious-brook-32861.herokuapp.com"
+                  target="_blank "
+                  rel="noopener noreferrer"
+                >
+                  <img alt="ActivTracker" src={Ychanel} class="img-fluid" />
+                </a>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div className="project-content">
+                <p>
+                  The app uses New York times API. User can search any favorite
+                  movie and the app will display reviews given by known critcs
+                  on the movie;
+                </p>
+                <p>
+                  Technology used: HTML, CSS,React, Redux, node.js, mongodb{' '}
+                </p>
+                <p>Live</p>
+                <p>Source</p>
+              </div>
             </div>
           </div>
-        </section>
-        <section className="project-detail">
-          <p>NYT Movie Review</p>
-          <div className="project_image">
-            <a
-              className="img-parent"
-              href="https://zeraiadhanom.github.io/Capstone_API"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                alt="MovieAPI"
-                src={MovieAPI}
-                className=""
-                width="50%"
-                height="300"
-              />
-            </a>
-            <div className="project-content">
-              <p>Technology used: HTML, CSS,React, Redux, node.js, mongodb </p>
-              <p>Live</p>
-              <p>Source</p>
-              <p>
-                This app helps user to login and log all their daily sport
-                activities The user can also update progress and track and view
-                past activity
-              </p>
-            </div>
-          </div>
-        </section>
-        <section className="project-detail">
-          <p>Y-chanel</p>
-          <div className="project_image">
-            <a
-              className="img-parent"
-              href="https://zeraiadhanom.github.io/Capstone_API"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                alt="MovieAPI"
-                src={Ychanel}
-                className=""
-                width="50%"
-                height="300"
-                border-radius="20%"
-              />
-            </a>
-            <div className="project-content">
-              <p>Technology used: HTML, CSS,React, Redux, node.js, mongodb </p>
-              <p>Live</p>
-              <p>Source</p>
-              <p>
-                This app helps user to login and log all their daily sport
-                activities The user can also update progress and track and view
-                past activity
-              </p>
-            </div>
-          </div>
-        </section>
+        </div>
       </div>
     );
   }

@@ -1,24 +1,32 @@
-h2 {
-  text-align: center;
-  margin-top: 20px;
-  font-size: 30px;
-}
-
 .image2 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 20px;
   border-radius: 50%;
+  /* width: 50%;*/
 }
-
 p {
   color: black;
 }
 
 .main {
-  border: 1px solid white;
-  margin: auto;
-  font-size: 20px;
-  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  padding-top: 10%;
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 320px) {
+  .main {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    padding-left: 25%;
+  }
 }

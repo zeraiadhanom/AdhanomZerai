@@ -3,14 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "bootstrap": "^4.3.1",
     "husky": "^2.4.0",
+    "jquery": "^3.4.1",
     "lint-staged": "^8.2.0",
+    "popper.js": "^1.15.0",
     "prettier": "^1.18.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-pdf": "^4.1.0",
+    "react-responsive": "^7.0.0",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "reactstrap": "^8.0.1"
   },
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [

@@ -10,8 +10,15 @@ class Home extends Component {
           src={image2}
           className="image2"
           alt="image2"
-          width="250"
-          height="200"
+          style={{
+            alignSelf: 'center',
+            height: 150,
+            width: 150,
+            borderWidth: 1,
+            borderRadius: 75,
+            resizeMode: 'cover',
+            flex: 1
+          }}
         />
         <div className="main">
           <h2>About Me</h2>
