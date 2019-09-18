@@ -5,18 +5,18 @@ import './Home.css';
 class Home extends Component {
   render() {
     return (
-      <div clasName="main">
+      <div clasName="main1">
         <img
           src={image2}
           className="image2"
           alt="image2"
           style={{
             alignSelf: 'center',
-            height: 150,
-            width: 150,
             borderWidth: 1,
             borderRadius: 75,
             resizeMode: 'cover',
+            width: '550',
+            height: '500',
             flex: 1
           }}
         />

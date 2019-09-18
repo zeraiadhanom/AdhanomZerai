@@ -3,21 +3,24 @@
   margin-left: auto;
   margin-right: auto;
   border-radius: 50%;
-  /* width: 50%;*/
-}
-p {
-  color: black;
+  padding-top: 30px;
 }
 
+h2 {
+  text-align: center;
+}
 .main {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
   position: absolute;
-  width: 100%;
-  left: 0;
-  right: 0;
-  padding-top: 10%;
+  /*width: 100%;*/
+  margin-left: 10%;
+  margin-right: 10%;
+  color: black;
+  background-color: #d2b48c;
+  margin-top: 5px;
+  border-radius: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 /* Small Devices, Tablets */
