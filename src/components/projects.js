@@ -18,7 +18,7 @@ class Projects extends Component {
               <div className="project_image">
                 <a
                   className="img-parent"
-                  href=" https://mysterious-brook-32861.herokuapp.com"
+                  href=" https://activetracker.herokuapp.com"
                   target="_blank "
                   rel="noopener noreferrer"
                 >
@@ -40,8 +40,12 @@ class Projects extends Component {
                 <p>
                   Technology used: HTML, CSS,React, Redux, node.js, mongodb{' '}
                 </p>
-                <p>Live</p>
-                <p>Source</p>
+                <a href="https://zeraiadhanom.github.io/Capstone_API">
+                  <button className="live">Live</button>
+                </a>
+                <a href="https://github.com/zeraiadhanom/Capstone_API">
+                  <button className="source">Source</button>
+                </a>
               </div>
             </div>
 
@@ -49,7 +53,7 @@ class Projects extends Component {
               <div className="project_image">
                 <a
                   className="img-parent"
-                  href=" https://mysterious-brook-32861.herokuapp.com"
+                  href=" https://zeraiadhanom.github.io/Capstone_API"
                   target="_blank "
                   rel="noopener noreferrer"
                 >
@@ -67,8 +71,12 @@ class Projects extends Component {
                 <p>
                   Technology used: HTML, CSS,React, Redux, node.js, mongodb{' '}
                 </p>
-                <p>Live</p>
-                <p>Source</p>
+                <a href="https://activetracker.herokuapp.com/">
+                  <button className="live">Live</button>
+                </a>
+                <a href="https://github.com/zeraiadhanom/ActiveTrackerN">
+                  <button className="source">Source</button>
+                </a>
               </div>
             </div>
             <div className="col-sm-6">
@@ -93,8 +101,12 @@ class Projects extends Component {
                 <p>
                   Technology used: HTML, CSS,React, Redux, node.js, mongodb{' '}
                 </p>
-                <p>Live</p>
-                <p>Source</p>
+                <a href="https://zeraiadhanom.github.io/Capstone_API">
+                  <button className="live">Live</button>
+                </a>
+                <a href="https://github.com/zeraiadhanom/Capstone_API">
+                  <button className="source">Source</button>
+                </a>
               </div>
             </div>
           </div>
