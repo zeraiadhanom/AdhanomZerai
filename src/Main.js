@@ -11,7 +11,7 @@ class Main extends Component {
     return (
       <HashRouter>
         <nav class="navbar navbar-expand-md">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="Family.png">
             logo
           </a>
           <button

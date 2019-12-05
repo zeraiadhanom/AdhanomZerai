@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import ActivTracker from './ActivTracker.png';
-import MovieAPI from './MovieAPI.png';
-import Ychanel from './Ychanel.PNG';
+import ActivTracker from '../images/ActivTracker.png';
+import MovieAPI from '../images/MovieAPI.png';
+import Ychanel from '../images/Ychanel.PNG';
 import './project.css';
 
 class Projects extends Component {

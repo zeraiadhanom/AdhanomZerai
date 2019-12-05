@@ -12,7 +12,8 @@ body {
 
   margin-right: auto;
   margin-left: auto;
-  background-image: url('./BG.jpg');
+  /*background-image: url('./BG.jpg');*/
+  background-image: url('https://i.ytimg.com/vi/Ayo2K9kPuFU/maxresdefault.jpg');
 }
 
 code {

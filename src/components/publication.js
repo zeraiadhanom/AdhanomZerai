@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './publication.css';
-import RadioStation from './RadioStation.jpg';
+import RadioStation from '../images/RadioStation.jpg';
 
 class Publications extends Component {
   render() {

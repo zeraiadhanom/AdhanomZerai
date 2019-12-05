@@ -1,23 +1,14 @@
 import React, { Component } from 'react';
-import resume from './resume1.jpg';
+//import resume from './resume1.jpg';
+import Pdf from '../images/ZERAIADHANOM.pdf';
 
 class Resume extends Component {
   render() {
     return (
-      <div clasName="main">
-        <img
-          src={resume}
-          className="resume"
-          alt="image2"
-          width="750"
-          height="900"
-          style={{
-            alignSelf: 'center',
-            resizeMode: 'cover',
-            flex: 1,
-            position: 'absolute'
-          }}
-        />
+      <div className="App">
+        <iframe title="resume" src={Pdf} width="100%" height="100%">
+          Resume
+        </iframe>
       </div>
     );
   }
