@@ -59,14 +59,8 @@ class Publications extends Component {
               </p>
               <div>
                 {' '}
-                Full Document
-                <a
-                  className="img-parent"
-                  href="http://hdl.handle.net/10413/3179"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Click here
+                <a href="http://researchspace.ukzn.ac.za/xmlui/handle/10413/3179">
+                  <button className="source">Click for full publication</button>
                 </a>
               </div>
             </div>
