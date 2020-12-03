@@ -18,7 +18,7 @@ class Projects extends Component {
               <div className="project_image">
                 <a
                   className="img-parent"
-                  href=" https://activetracker.herokuapp.com"
+                  href="https://activetracker.herokuapp.com"
                   target="_blank "
                   rel="noopener noreferrer"
                 >
@@ -40,10 +40,10 @@ class Projects extends Component {
                 <p>
                   Technology used: HTML, CSS,React, Redux, node.js, mongodb{' '}
                 </p>
-                <a href="https://zeraiadhanom.github.io/Capstone_API">
+                <a href="https://activetracker.herokuapp.com">
                   <button className="live">Live</button>
                 </a>
-                <a href="https://github.com/zeraiadhanom/Capstone_API">
+                <a href="https://github.com/zeraiadhanom/ActiveTrackerN">
                   <button className="source">Source</button>
                 </a>
               </div>
@@ -64,17 +64,15 @@ class Projects extends Component {
             <div class="col-sm-6">
               <div className="project-content">
                 <p>
-                  This app is a video player. User can login or create an
-                  account and search any video of their interest and they can
-                  play back. The app uses youtube API;
+                  The app uses New York times API. User can search any favorite
+                  movie and the app will display reviews given by known critcs
+                  on the movie;
                 </p>
-                <p>
-                  Technology used: HTML, CSS,React, Redux, node.js, mongodb{' '}
-                </p>
-                <a href="https://activetracker.herokuapp.com/">
+                <p>Technology used: HTML, CSS,React, Redux, node.js, mongodb</p>
+                <a href="https://zeraiadhanom.github.io/Capstone_API">
                   <button className="live">Live</button>
                 </a>
-                <a href="https://github.com/zeraiadhanom/ActiveTrackerN">
+                <a href="https://github.com/zeraiadhanom/Capstone_API">
                   <button className="source">Source</button>
                 </a>
               </div>
@@ -94,9 +92,9 @@ class Projects extends Component {
             <div class="col-sm-6">
               <div className="project-content">
                 <p>
-                  The app uses New York times API. User can search any favorite
-                  movie and the app will display reviews given by known critcs
-                  on the movie;
+                  The app uses Youtube video search API. User can search any
+                  video. The app will display related videos based on search
+                  terms;
                 </p>
                 <p>
                   Technology used: HTML, CSS,React, Redux, node.js, mongodb{' '}
@@ -104,7 +102,7 @@ class Projects extends Component {
                 <a href="https://zeraiadhanom.github.io/Capstone_API">
                   <button className="live">Live</button>
                 </a>
-                <a href="https://github.com/zeraiadhanom/Capstone_API">
+                <a href="https://github.com/zeraiadhanom/Capstone4_Test">
                   <button className="source">Source</button>
                 </a>
               </div>
