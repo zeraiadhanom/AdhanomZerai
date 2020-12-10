@@ -8,8 +8,14 @@ body {
   background: #6ab446;
 }
 
+.nav-item a {
+  color: white;
+  font: bold 16px/32px Georgia, serif;
+}
+
 .navbar-brand {
   color: #fff;
+
   cursor: pointer;
 }
 .nav-link {

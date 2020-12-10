@@ -5,14 +5,19 @@ import Projects from './components/projects';
 import Resume from './components/Resume';
 import Publications from './components/publication';
 import './Main.css';
+import Peace from './images/peace.jpg';
 
 class Main extends Component {
   render() {
     return (
       <HashRouter>
         <nav class="navbar navbar-expand-md">
-          <a className="navbar-brand" href="Family.png">
-            logo
+          <a className="navbar-brand" href={Peace}>
+            <img
+              src={Peace}
+              alt="peace_image"
+              style={{ width: '50px', height: '50px', 'border-radius': '20px' }}
+            />
           </a>
           <button
             className="navbar-toggler navbar-dark"
