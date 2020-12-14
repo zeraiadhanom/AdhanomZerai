@@ -8,17 +8,17 @@ class Home extends Component {
       <div clasName="main1">
         <div className="main">
           <h2>Zerai Adhanom</h2>
-          <p>
+          <h6>
             I am a software Test enginer. I have over seven years’ experience of
             software integration, test development, validation strategies. I
             have executed manual and automation test on Android and Windows
             operating system for various mobile chipset.
-          </p>
-          <p>
+          </h6>
+          <h6>
             {' '}
             Also I am pasionate web developer. I have created dynamic, secure
             Web site from scratch; Please take a look at some of my projects.
-          </p>
+          </h6>
         </div>
       </div>
     );
