@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import ActivTracker from '../images/ActivTracker.png';
-import MovieAPI from '../images/MovieAPI.png';
+import MovieAPI from '../images/MovieAPI.JPG';
 import Ychanel from '../images/Ychanel.PNG';
+import church from '../images/church.jpg';
+
 import './project.css';
 
 class Projects extends Component {
@@ -73,6 +75,33 @@ class Projects extends Component {
                   <button className="live">Live</button>
                 </a>
                 <a href="https://github.com/zeraiadhanom/Capstone_API">
+                  <button className="source">Source</button>
+                </a>
+              </div>
+            </div>
+            <div className="col-sm-6">
+              <div className="project_image">
+                <a
+                  className="img-parent"
+                  href="https://radiant-hamlet-99617.herokuapp.com/"
+                  target="_blank "
+                  rel="noopener noreferrer"
+                >
+                  <img alt="ActivTracker" src={church} class="img-fluid" />
+                </a>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div className="project-content">
+                <p>
+                  This website is under construction. It is is intended as a
+                  donation for community church use.
+                </p>
+                <p>Technology used: HTML, CSS,React, Stripe API, sqlite</p>
+                <a href="https://radiant-hamlet-99617.herokuapp.com/">
+                  <button className="live">Live</button>
+                </a>
+                <a href="https://radiant-hamlet-99617.herokuapp.com/">
                   <button className="source">Source</button>
                 </a>
               </div>
