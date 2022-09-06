@@ -39,9 +39,7 @@ class Projects extends Component {
                   activities The user can also update progress and track and
                   view past activity
                 </p>
-                <p>
-                  Technology used: HTML, CSS,React, Redux, node.js, mongodb{' '}
-                </p>
+                <p>Technology used: HTML, CSS,React, node.js, mongodb </p>
                 <a href="https://activetracker.herokuapp.com">
                   <button className="live">Live</button>
                 </a>
@@ -70,7 +68,7 @@ class Projects extends Component {
                   movie and the app will display reviews given by known critcs
                   on the movie;
                 </p>
-                <p>Technology used: HTML, CSS,React, Redux, node.js, mongodb</p>
+                <p>Technology used: HTML, CSS, jQuery, node.js, mongodb</p>
                 <a href="https://zeraiadhanom.github.io/Capstone_API">
                   <button className="live">Live</button>
                 </a>
@@ -125,9 +123,7 @@ class Projects extends Component {
                   video. The app will display related videos based on search
                   terms;
                 </p>
-                <p>
-                  Technology used: HTML, CSS,React, Redux, node.js, mongodb{' '}
-                </p>
+                <p>Technology used: HTML, CSS,React, node.js, mongodb </p>
                 <a href="https://zeraiadhanom.github.io/Capstone_API">
                   <button className="live">Live</button>
                 </a>
