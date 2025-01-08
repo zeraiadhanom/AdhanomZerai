@@ -9,10 +9,10 @@ class Home extends Component {
         <div className="main">
           <h2>Zerai Adhanom</h2>
           <h6>
-            I am a software Test enginer. I have over seven years’ experience of
+            I am a software QA enginer. I have over seven years’ experience of
             software integration, test development, validation strategies. I
             have executed manual and automation test on Android and Windows
-            operating system for various mobile chipset.
+            operating system for various Qualcomm mobile chipset.
           </h6>
           <h6>
             {' '}

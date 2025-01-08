@@ -59,7 +59,7 @@ class Publications extends Component {
               </p>
               <div>
                 {' '}
-                <a href="http://researchspace.ukzn.ac.za/xmlui/handle/10413/3179">
+                <a href="https://researchspace.ukzn.ac.za/items/1a06476d-a609-404b-b0fc-b839f4d00b92">
                   <button className="source">Click for full publication</button>
                 </a>
               </div>
